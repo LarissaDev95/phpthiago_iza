@@ -7,9 +7,13 @@ echo 'a';
 
 print("<br>ok");
 
-print_r("akakaka");
+print_r("akakaka");  // vai usar muito para fazer função para debug
 
-/// criando uma variavel
+//FUNÇÃO PARA DEBUG
+$variavel = 10;
+var_dump($variavel);
+
+/// criando uma variável
 $a = 10;
 $b = 20;
 $res = $a * $b;
@@ -23,5 +27,9 @@ $a = "thiago";
 echo "<br> valor de A: " . $a;
 
 /// o php é igual o js
+
+//vetor é uma variavel que é um vetor
+$variavel =[10,20,30,"THIAGO"] /// isso é um arrey com varios valores dentro
+
 
 ?>

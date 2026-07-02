@@ -4,7 +4,7 @@ $nome1 = "";
 $nome2 = "Joaquim";
 $idade = 18;
 
-$res1 = is_numeric($nome); // NADA ou FALSE
+$res1 = is_numeric($nome2); // NADA ou FALSE
 $res2 = is_numeric($idade); // TRUE ou 1 
 $res3 = empty($nome1); //$nome1 vazio? TRUE
 $res4 = !empty($nome2);
